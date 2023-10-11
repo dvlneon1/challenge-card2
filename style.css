@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F5F9;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 134px;
+}
+
+.container .card {
+    height: 525px;
+    width: 400px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+}
+
+.container .card .image {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+}
+
+.container .card .image img {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.container .card .image-1 {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 66px;
+    margin-top: -60px;
+}
+
+.container .card .image-1 img {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 66px;
+}
+
+.container .card .text-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.container .card .text-description .title {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0px 28px 0px 28px;
+    color: #111729;
+}
+
+.container .card .text-description .text {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 28px 10px 28px;
+    color: #677489;
+
+}
+
+.container .card hr {
+    opacity: 0.6;
+}
+
+.container .card .user {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin: 28px 28px 28px 28px;
+    font-family: 'Lato', sans-serif;
+}
+
+.container .card .user .user-img {
+    display: flex;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    
+}
+
+.container .card .user .user-img img {
+    border-radius: 50%;
+    width: 64px;
+}
+
+
+.container .card .user .user-info {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 10px 10px 10px 20px ;
+}
+
+.container .card .user .user-info .title-user p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111729;
+}
+
+.container .card .user .user-info .desc-user p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #677489;
+}
